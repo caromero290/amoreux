@@ -1,0 +1,101 @@
+
+body {
+	background: #8360c3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+h1{
+  color:aquamarine;
+  font-size:xx-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+ul {
+  list-style-type:none;
+  text-align: center;
+  display:flex;
+  font-size: 10px;
+  min-width: 300px;
+  list-style-type: none;
+}
+
+li {
+  background-color:rgb(255, 255, 255);
+  border: #D7C8B6 2px solid;
+  display: inline-grid;
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size:large;
+  font-style: oblique;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+
+
+
+input[type="submit"] {
+    background-color: #F38A2D;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #F38A2D;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  border: 1px solid black;
+}
+
+img {
+  margin: center;
+  display: block;
+}
+
+audio {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.favicon {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+footer{
+  color:thistle;
+  font-size:smaller;
+  font-weight: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ header, footer {
+                        background-color: #804288;
+                        padding: 10px;
+                        text-align: center;
+                       
+
+                    } 
+
+

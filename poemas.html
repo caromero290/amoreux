@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+       <style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+ 
+    b{
+			font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			color:brown;
+		}
+
+    .galeria {
+        padding: 20px;
+    }
+
+    .imagen-principal img{
+        width: 50%;
+        object-fit: cover;
+        display: block;
+       
+
+    }
+
+    .imagen-principal2 img{
+        width: 50%;
+        object-fit: cover;
+        display: block;
+        margin-top: 10px ;
+        margin-right: -10px;
+    }
+
+
+
+    .lista-imagenes img{
+        width: 100;
+        object-fit: cover;
+        width: 650px;
+        height: 650px;
+        margin-right: 20px;
+        display: block;
+        margin-top: 100px;
+    }
+
+    .lista-imagenes {
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+
+
+
+    .lista-imagenes2{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes2 img{
+        width: 100;
+        object-fit: cover;
+        width: 650px;
+        height: 650px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes3{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes3 img{
+        width: 100;
+        object-fit: cover;
+        width: 650px;
+        height: 650px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+     .lista-imagenes4{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes4 img{
+        width: 100;
+        object-fit: cover;
+        width: 650px;
+        height: 950px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+     .lista-imagenes5{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes5 img{
+        width: 100;
+        object-fit: cover;
+        width: 650px;
+        height: 950px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes6{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes6 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 400px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes7{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes7 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 500px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes8{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes8 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 550px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes9{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes9 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 700px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes10{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes10 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 400px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes11{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes11 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 700px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes12{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes12 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 700px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes13{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes13 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 990px;
+        margin-right: 20px;
+        display: block;
+    }
+
+
+    .lista-imagenes14{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes14 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 600px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    
+    .lista-imagenes15{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes15 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 750px;
+        margin-right: 20px;
+        display: block;
+    }
+ 
+    .lista-imagenes16{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes16 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 400px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes17{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes17 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 1500px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    
+    .lista-imagenes18{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes18 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 1100px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes19{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes19 img{
+        width: 100;
+        object-fit: cover;
+        width: 800px;
+        height: 400px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes20{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes20 img{
+        width: 100;
+        object-fit: cover;
+        width: 600px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes21{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes21 img{
+        width: 100;
+        object-fit: cover;
+        width: 600px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes22{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes22 img{
+        width: 100;
+        object-fit: cover;
+        width: 600px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes23{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes23 img{
+        width: 100;
+        object-fit: cover;
+        width: 680px;
+        height: 650px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes24{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes24 img{
+        width: 100;
+        object-fit: cover;
+        width: 580px;
+        height: 1050px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes25{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes25 img{
+        width: 100;
+        object-fit: cover;
+        width: 580px;
+        height: 750px;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .lista-imagenes26{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes26 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes27{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes27 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes28{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes28 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes29{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes29 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes30{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes30 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes31{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes31 img{
+        width: 100;
+        object-fit: cover;
+        width: 980px;
+        height: 550px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes32{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes32 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes33{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes33 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes34{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes34 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes35{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes35 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes36{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes36 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 850px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes37{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes37 img{
+        width: 100;
+        object-fit: cover;
+        width: 680px;
+        height: 450px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes38{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes38 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 560px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes39{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes39 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 660px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes40{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes40 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 660px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        .lista-imagenes41{
+        display: flex;
+        overflow-y: auto;
+        margin-top: 15px;
+    }
+    .lista-imagenes41 img{
+        width: 100;
+        object-fit: cover;
+        width: 780px;
+        height: 660px;
+        margin-right: 20px;
+        display: block;
+        }
+
+        body{
+        background: #BBD2C5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+        
+        a {
+        color: black;
+        padding: 0 4px;
+        text-decoration: none;
+        }
+
+        a:hover {
+         background-color: white;
+         color: #D7C8B6;
+        }   
+
+        header, footer {
+        background-color: #8d6faa;
+        padding: 10px;
+        }
+
+        main {
+        padding: 20px;
+        }
+
+        header{
+            background:rgba(187, 219, 248, 0.603);
+            text-align: center;
+            text-decoration: overline;
+            font-style: oblique;
+        }
+
+        footer{
+            color: white;
+        }
+
+
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 28px;
+        }
+
+        nav {
+            text-align: left;
+            }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav ul.menu {
+            text-align: right;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            text-align: right;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #cdd677;
+        }
+
+        nav ul li:hover > ul {
+            display: inherit;
+        }
+
+        nav ul li ul li {
+            width: 100%;
+            display: block;
+        }
+
+        nav ul li ul li a {
+            padding: 15px;
+            text-align: right;
+        }
+
+        .icon-container {
+            color: #000000;
+            float: left;
+        }
+
+        .scroll-link {
+			display: inline-block;
+			margin-top: 20px;
+			padding: 10px 20px;
+			background-color: rgb(175, 126, 187);
+			color: white;
+			text-decoration: none;
+			}
+
+			.scroll-link:hover {
+			background-color:  rgb(192, 155, 190);
+			}
+
+			.scroll-link {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			background-color: rgb(93, 182, 209);
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			text-decoration: none;
+			font-size: 24px;
+			}
+
+			.scroll-link::before {
+			content: '\2191';
+			}
+
+      
+
+      
+      
+</style>
+
+
+    
+</head>
+
+<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poemas</title>
+    <header> 
+        <header>
+         <h1>Bienvenue aux poèmes quotidiens et autres éléments de motivation</h1>
+            <ul>
+                 <footer>
+                    <center><li><a href="lovers.html">---- Volver ----</a></li></center>
+                </footer>
+
+    </header>
+
+    <div class="icon-container">
+        <i class="fa-solid fa-bars"></i>
+         
+        <nav>
+        <ul>
+          <li>
+
+           <a><b>¿Dónde deseas ir mi amor?</b></a>
+
+            <ul>
+              <li><a href="lovers.html">Página principal</a></li>
+              <li><a href="fotos.html">Fotos</a></li>
+              <li><a href="videos.html">Vídeos Juntos</a></li>
+              <li><a href="musica.html">Música</a></li>
+              <li><a href="jardin.html">Adventure Forest</a></li>
+              <li><a href="momento.html">Momentos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      
+    </div>
+
+    <br>
+      
+    <div class="galeria">
+        <div class="imagen-principal">
+            <img src="pomtos/foto1.jpg">
+        </div>
+        <br>
+
+        <div class="imagen-principal2">
+            <p><div align="right"><img src="pomtos/foto3.jpeg"></div></p>
+        </div>
+
+        <br>
+ 
+     
+        <div class="lista-imagenes">
+            <img src="pomtos/s1.jpg">
+            <img src="pomtos/s2.jpg">
+            <img src="pomtos/s3.jpg">
+        </div>
+
+        <br>
+
+         <div class="lista-imagenes2">
+            <img src="pomtos/s4.jpg">
+            <img src="pomtos/s5.jpg">
+        </div>
+
+        <br>
+
+           <div class="lista-imagenes3">
+            <img src="pomtos/s6.jpg">
+            <img src="pomtos/s7.jpg">
+        </div>
+
+         <br>
+
+        <div class="lista-imagenes4">
+            <img src="pomtos/s8.jpg">
+            <img src="pomtos/s9.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes5">
+            <img src="pomtos/s10.jpg">
+            <img src="pomtos/s11.jpg">
+            <img src="pomtos/s12.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes6">
+            <img src="pomtos/s14.jpeg">
+            <img src="pomtos/s15.jpeg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes7">
+            <img src="poemas2/s1.jpg">
+            <img src="poemas2/s2.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes8">
+            <img src="poemas2/s3.jpg">
+            <img src="poemas2/s5.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes9">
+            <img src="poemas2/s6.jpg">
+            <img src="poemas2/s7.jpg">
+        </div>
+        
+        <br>
+
+        <div class="lista-imagenes10">
+            <img src="poemas2/s8.jpg">
+            <img src="poemas2/s9.jpg">
+            <img src="poemas2/s10.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes11">
+            <img src="poemas2/s11.jpg">
+            <img src="poemas2/s12.jpg">
+            <img src="poemas2/s13.jpg">
+        </div>
+
+        <br>
+
+        <div class="lista-imagenes12">
+            <img src="poemas2/s14.jpg">
+            <img src="poemas2/s15.jpg">
+        </div>
+
+
+        <br>
+
+        <div class="lista-imagenes13">
+            <img src="poemas2/s16.jpg">
+            <img src="poemas2/s17.jpg">
+        </div>
+
+        
+        <br>
+
+        <div class="lista-imagenes14">
+            <img src="poemas2/s18.jpg">
+            <img src="poemas2/s19.jpg">
+            <img src="poemas2/s20.jpg">
+        </div>
+
+        <div class="lista-imagenes15">
+            <img src="poemas3/p1.JPG">
+            <img src="poemas3/p2.JPG">
+        </div>
+
+        <div class="lista-imagenes16">
+            <img src="poemas3/p3.JPG">
+            <img src="poemas3/p4.JPG">
+            <img src="poemas3/p5.JPG">
+            <img src="poemas3/p6.JPG">
+        </div>
+
+        <div class="lista-imagenes17">
+            <img src="poemas3/p7.JPG">
+            <img src="poemas3/p8.JPG">
+        </div>
+      
+        <div class="lista-imagenes18">
+            <img src="poemas3/p9.JPG">
+            <img src="poemas3/p10.JPG">
+        </div>
+
+        <div class="lista-imagenes19">
+            <img src="poemas 4/p1.jpg">
+            <img src="poemas 4/p2.jpg">
+        </div>
+
+        <div class="lista-imagenes20">
+            <img src="poemas 4/p3.JPG">
+            <img src="poemas 4/p4.JPG">
+        </div>
+
+        <div class="lista-imagenes21">
+            <img src="poemas 4/p5.JPG">
+            <img src="poemas 4/p6.JPG">
+        </div>
+
+        <div class="lista-imagenes22">
+            <img src="poemas 4/p7.JPG">
+            <img src="poemas 4/p8.JPG">
+        </div>
+
+        <div class="lista-imagenes23">
+            <img src="poemas 4/p9.JPG">
+            <img src="poemas 4/p10.JPG">
+        </div>
+
+        <div class="lista-imagenes24">
+            <img src="poemas 4/p11.PNG"> 
+        </div>
+
+        <div class="lista-imagenes25">
+            <img src="poemas 4/p12.JPG"> 
+            <img src="poemas 4/p13.JPG"> 
+        </div>
+
+        <div class="lista-imagenes26">
+            <img src="poemas 4/p14.JPG"> 
+            <img src="poemas 4/p15.JPG"> 
+        </div>
+
+        <div class="lista-imagenes27">
+            <img src="poemas5/p (1).JPG"> 
+            <img src="poemas5/p (1).PNG"> 
+        </div>
+
+          <div class="lista-imagenes28">
+            <img src="poemas5/p (2).JPG"> 
+        </div>
+
+        <div class="lista-imagenes29">
+            <img src="poemas5/p (3).JPG"> 
+            <img src="poemas5/p (4).JPG"> 
+            <img src="poemas5/p (5).JPG"> 
+        </div>
+
+        <div class="lista-imagenes30">
+            <img src="poemas5/p (6).JPG"> 
+            <img src="poemas5/p (7).JPG"> 
+        </div>
+
+        <div class="lista-imagenes31">
+            <img src="poemas5/p (8).JPG"> 
+            <img src="poemas5/p (9).JPG"> 
+        </div>
+
+        <div class="lista-imagenes32">
+            <img src="poemas5/p (10).JPG"> 
+            <img src="poemas5/p (11).JPG"> 
+            <img src="poemas5/p (12).JPG"> 
+        </div>
+
+        <div class="lista-imagenes33">
+            <img src="poemas5/p (13).JPG"> 
+            <img src="poemas5/p (14).JPG"> 
+        </div>
+
+        <div class="lista-imagenes34">
+            <img src="poemas5/p (15).JPG"> 
+            <img src="poemas5/p (16).JPG"> 
+        </div>
+
+        <div class="lista-imagenes35">
+            <img src="poemas5/p (17).JPG"> 
+            <img src="poemas5/p (18).JPG"> 
+            <img src="poemas5/p (19).JPG"> 
+        </div>
+
+        <div class="lista-imagenes36">
+            <img src="poemas5/p (20).JPG"> 
+            <img src="poemas5/p (21).JPG">  
+        </div>
+
+        <div class="lista-imagenes37">
+            <img src="poemas5/c (1).JPG"> 
+            <img src="poemas5/c (2).JPG">  
+        </div>
+
+        <div class="lista-imagenes38">
+            <img src="poemas5/c (3).JPG "> 
+            <img src="poemas5/c (4).JPG ">  
+        </div>
+
+        <div class="lista-imagenes39">
+            <img src="poemas5/c (5).JPG "> 
+            <img src="poemas5/c (6).JPG ">  
+        </div>
+
+        <div class="lista-imagenes40">
+            <img src="poemas5/c (7).JPG "> 
+            <img src="poemas5/c (8).JPG ">  
+        </div>
+
+        <div class="lista-imagenes41">
+            <img src="poemas5/c (9).JPG "> 
+            <img src="poemas5/c (10).JPG ">  
+            <img src="poemas5/c (11).JPG "> 
+        </div>
+    </div>
+
+    <footer>
+         <h2><center><li><a href="lovers.html">---- Volver ----</a></li></center></h2>
+         <a href="poemas.html" class="scroll-link"><b></b></a>
+         <br>
+        <audio src="cancion/elvis.mp3" autoplay loop></audio>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0755907d9a.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
